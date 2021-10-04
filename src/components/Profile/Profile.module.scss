@@ -1,0 +1,42 @@
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name,
+.tag {
+  margin-bottom: 10px;
+}
+
+.name {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.tag,
+.location {
+  color: #ccc;
+}
+
+.location {
+  margin-bottom: 20px;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f3f6f9;
+  border: 1px solid #ccc;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.item:not(:last-child) {
+  margin-right: 10px;
+  border-right: 1px solid #ccc;
+}
